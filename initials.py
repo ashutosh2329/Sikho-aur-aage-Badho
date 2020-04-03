@@ -1,0 +1,6 @@
+print("code to print the initial of ur name")
+first_name=input("enter your first name:").upper()
+last_name=(input("enter your last name:")).upper()
+middle_name=(input("enter your middle name:")).upper()
+initial_of_name=first_name[0]+"."+middle_name[0]+"."+last_name[0]+last_name[1:].lower()
+print(f"Your initials are:",initial_of_name)
